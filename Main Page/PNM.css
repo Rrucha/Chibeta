@@ -16,6 +16,7 @@ body {
 
 #onhover:hover {
   color: #ffedd3 !important;
+  font-weight: bold;
 }
 
 /* CUSTOMIZE THE CAROUSEL
