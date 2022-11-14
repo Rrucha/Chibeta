@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
 
-<link href="PNM.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -70,15 +70,13 @@
         -webkit-overflow-scrolling: touch;
       }
     </style>
-
-    
     <!-- Custom styles for this template -->
-    <link href="PNM.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
     
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="user-select: none">
     <div class="container-fluid">
       <a class="navbar-brand">&nbsp<img src ="https://upload.wikimedia.org/wikipedia/en/d/d7/ThetaTau.png" width = "37.5px">&nbsp Chi Beta</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -87,23 +85,25 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link" id="onhover" href="index.html" style = "color:#f0ad4e;">Home</a>
+            <a class="nav-link active" id="hoveron" aria-current="page" href="#" style = "color:#f0ad4e;" >Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" id="onhover" aria-current="page" href="#" style = "color:#f0ad4e;">PNMs</a>
+            <a class="nav-link" id="hoveron" href="PNM.html" style = "color:#f0ad4e;">PNMs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="onhover" href="#" style = "color:#f0ad4e;">Gallery</a>
+            <a class="nav-link" id="hoveron" href="#" style = "color:#f0ad4e;">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="hoveron" href="contact.html" style = "color:#f0ad4e;">Contact</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
+        <form class="d-flex" role="website">
           <a class="btn btn-outline-warning" href = "https://thetatau.org/" target ="_blank">Theta Tau</a>
         </form>
       </div>
     </div>
   </nav>
 </header>
-
 <main> 
 
   <hr class="featurette-heading">
