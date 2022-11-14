@@ -18,6 +18,10 @@ body {
   background-color: #610505 !important;
 }
 
+#hoveron:hover {
+  color: #ffedd3 !important;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
