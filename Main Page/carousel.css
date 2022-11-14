@@ -8,15 +8,15 @@
 
 .parallax {
   /* The image used */
-  background-image: url("IMG_3545-_1_.jpg");
-  width:"100%";
+  background-image: url("XB.jpg");
+  width:"100%"; 
 
   /* Set a specific height */
-  min-height: 664px; 
+  min-height: 790px; 
 
   /* Create the parallax scrolling effect */
-  background-attachment: scroll;
-  background-position: top;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
