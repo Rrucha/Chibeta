@@ -14,6 +14,7 @@ body {
   background-color: #610505 !important;
 }
 
+
 #onhover:hover {
   color: #ffedd3 !important;
   font-weight: bold;
@@ -37,7 +38,10 @@ body {
   height: 32rem;
 }
 
-h2{
+
+
+h2 a{
+  text-decoration: none;
   color:black;
 }
 
