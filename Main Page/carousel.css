@@ -6,6 +6,20 @@
     position: relative;    
 }
 
+.parallax {
+  /* The image used */
+  background-image: url("IMG_3545-_1_.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .bottom-left {
   position: absolute;
   bottom: 15px; 
