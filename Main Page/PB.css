@@ -1,25 +1,5 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-.chi {
-  position: relative;    
-}
-
-.parallax {
-/* The image used */
-background-image: url("XB.jpg");
-width:"100%"; 
-
-/* Set a specific height */
-min-height: 790px; 
-
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
 
 .bottom-left {
 position: absolute;
