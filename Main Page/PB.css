@@ -2,7 +2,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif !important;
 }
 
 
@@ -54,6 +54,30 @@ body {
 }
 /* rtl:end:ignore */
 
+.hello{
+  margin-left: 70px;
+}
+
+.hello h1{
+  font-size:100px !important;
+  color:#610505 !important;
+}
+.hello p {
+  color:gray;
+  font-size: 50px;
+}
+#nav {
+  background-color: #610505 !important;
+}
+
+#hoveron:hover {
+  color: #ffedd3 !important;
+  font-weight: bold;
+}
+
+.about{
+  margin:70px;
+}
 
 /* Featurettes
 ------------------------- */
