@@ -69,6 +69,14 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      .dark-mode {
+        background-color: black;
+        color: rgb(255, 204, 0);
+       
+      }
+      
+ 
+      
     </style>
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
@@ -78,7 +86,8 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="user-select: none">
     <div class="container-fluid">
-      <a class="navbar-brand">&nbsp<img src ="https://upload.wikimedia.org/wikipedia/en/d/d7/ThetaTau.png" width = "37.5px">&nbsp Chi Beta</a>
+      <span class = menu-dark>
+      <a class="navbar-brand">&nbsp<img src ="https://upload.wikimedia.org/wikipedia/en/d/d7/ThetaTau.png" width = "37.5px">&nbsp Chi Beta</a> </span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -100,10 +109,24 @@
         <form class="d-flex" role="website">
           <a class="btn btn-outline-warning" href = "https://thetatau.org/" target ="_blank">Theta Tau</a>
         </form>
+        <button onclick="myFunction()" type="button"  style = "color:#f0ad4e;">mode</button>
+        ​
+        <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+           document
+  .querySelector('button')
+  .addEventListener('click', () => bodyClasses.toggle('dark-mode'))
+           element.classList.toggle("dark-mod");
+        }
+        </script>
       </div>
     </div>
+  
   </nav>
 </header>
+
 
 <main>
   <hr class="featurette-divider">

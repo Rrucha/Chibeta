@@ -1,7 +1,11 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
+.dark-mod {
+  background-color: black;
+  color:  #fff;
+  
+}
 .chi {
     position: relative;    
 }
@@ -27,15 +31,28 @@
   left: 30px; 
   font-size: 125px;
   text-align: left;
+  /* color: #ffffff; */
   color: #ffffff;
   text-shadow: 0 0 3px #000000, 0 0 3px #000000;
 }
+
+.dark-mod .bottom-left {
+  
+  color: rgb(255, 204, 0);
+  
+}
+
 
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
   font-family: 'Josefin Sans', sans-serif;
+}
+.dark-mod .body {
+  
+  color: black
+  
 }
 
 
@@ -44,7 +61,8 @@ body {
 }
 
 #hoveron:hover {
-  color: #ffedd3 !important;
+  /** color: #ffedd3 !important; */
+color: #ffedd3 !important;
   font-weight: bold;
 }
 
