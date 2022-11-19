@@ -117,3 +117,9 @@ body {
     margin-top: 7rem;
   }
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
