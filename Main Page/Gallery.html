@@ -71,6 +71,12 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      .dark-mode {
+        background-color: black;
+        color: rgb(255, 204, 0);
+       
+      }
     </style>
     <!-- Custom styles for this template -->
     <link href="Gallery.css" rel="stylesheet">
@@ -103,6 +109,17 @@
             <form class="d-flex" role="website">
               <a class="btn btn-outline-warning" href = "https://thetatau.org/" target ="_blank">Theta Tau</a>
             </form>
+
+            <button onclick="myFunction()" type="button"  style = "color:#f0ad4e;">mode</button>
+            ​
+            <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+               document.querySelector('button').addEventListener('click', () => bodyClasses.toggle('dark-mode'))
+               element.classList.toggle("dark-mod");
+            }
+            </script>
           </div>
         </div>
       </nav>
